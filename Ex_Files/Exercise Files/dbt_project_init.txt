@@ -7,7 +7,7 @@ Initiate the dbt Project
 	export DBT_BIGQUERY_KEYFILE_PATH=<your JSON key file path>
 	export DBT_PROFILES_DIR=<your profiles directory path>
 
-*** The above could not be used in Windows powershell, so the following commands were used in place:
+*** The above could not be used in Windows powershell, so the following commands were used and placed in the "activate.psl" file in the venv:
 	$env:DBT_BIGQUERY_DATASET="transformed_data"
 	$env:DBT_BIGQUERY_KEYFILE_PATH="C:\Users\grant.arbuckle\OneDrive - Steel Dynamics Inc\Desktop\big-star-collectibles-dbt-408621-b7d84ea9d35b.json"
 	$env:DBT_BIGQUERY_LOCATION="US"
