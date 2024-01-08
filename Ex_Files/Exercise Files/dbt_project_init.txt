@@ -13,6 +13,8 @@ Initiate the dbt Project
 	$env:DBT_BIGQUERY_LOCATION="US"
 	$env:DBT_BIGQUERY_PROJECT="big-star-collectibles-408621"
 	$env:DBT_PROFILES_DIR="C:\Users\grant.arbuckle\OneDrive - Steel Dynamics Inc\Desktop\Python Files\end-to-end-data-engineering-project-4413618\dbt_transformation\config" 
+	$env:DBT_PROJECT_DIR="C:\Users\grant.arbuckle\OneDrive - Steel Dynamics Inc\Desktop\Python Files\end-to-end-data-engineering-project-4413618\dbt_transformation"
+	$env:AIRBYTE_PASSWORD="password"
 
 2. Verify connection:
 	cd dbt_transformation
